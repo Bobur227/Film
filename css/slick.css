@@ -1,0 +1,89 @@
+/* лента слайдов */
+.slick-track
+{
+    display: flex;
+    align-items: flex-start;
+}
+
+
+/* конкретный слайдер */
+.slick-list
+{
+    padding-top: 20px;
+    margin: auto;
+    max-width: 1200px;
+    position: relative;
+    background: white;
+}
+
+
+
+.slider
+{
+    margin: 0 20px;
+    max-width: 1200px;
+    height: 230px;
+    overflow: hidden;
+}
+
+
+.slider .slick-arrow
+{
+    position: absolute;
+    top: 40%; 
+    z-index: 10;
+    font-size: 0; 
+    width: 20px;
+    height: 50px;
+    border: none;
+}
+
+.slider .slick-arrow.slick-prev
+{
+    left: 0px;
+    background: url(/img/icon/previous.svg) 0 0 / 100% no-repeat;
+}
+
+.slider .slick-arrow.slick-next
+{
+    right: 0;
+    background: url(/img/icon/next.svg) 0 0 / 100% no-repeat;
+}
+
+.slider .slick-arrow.slick-disabled
+{
+    opacity: 0.2;
+}
+
+.slider_item
+{
+    display: flex;
+    align-items: center;
+}
+
+.slider .slider_item .first-card-content
+{
+
+    margin: 0 10px;
+}
+
+.slider .slider_item .first-card-content h3
+{
+    font-size: 1.1rem;
+    color: #3a3a3a;
+    font-style: 500px;
+}
+
+.slider .slider_item .first-card-content h4
+{
+    font-size: 1rem;
+    font-style: 500px;
+    color: #000000;
+}
+
+.slider .slider_item .first-card-content p
+{
+    font-size: 0.9rem;
+    color: #3a3a3a;
+    font-style: 500px;
+}
